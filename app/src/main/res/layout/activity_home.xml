@@ -40,6 +40,8 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageButton
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_quiz"
         android:layout_width="214dp"
         android:layout_height="60dp"
         android:src="@drawable/btn_quiz"

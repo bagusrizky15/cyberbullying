@@ -1,5 +1,6 @@
 package com.example.cyberbullying
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.cyberbullying.databinding.ActivityHomeBinding
@@ -12,7 +13,14 @@ class HomeActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        binding.btnMateri.setOnClickListener{
+            val i = Intent(this, MateriActivity::class.java)
+            startActivity(i)
+        }
 
+        binding.btnQuiz.setOnClickListener{
+
+        }
 
     }
 }
