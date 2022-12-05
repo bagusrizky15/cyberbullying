@@ -34,6 +34,7 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:src="@drawable/btn_definisi"
+        android:layout_marginTop="-200dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,9 +68,20 @@
         android:backgroundTint="@color/white"
         android:layout_width="260dp"
         android:layout_height="100dp"
-        android:src=""
+        android:src="@drawable/btn_dampak"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_bentuk"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageButton
+        android:scaleType="centerCrop"
+        android:id="@+id/btn_tips"
+        android:backgroundTint="@color/white"
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:src="@drawable/btn_tips"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_dampak"
         app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
