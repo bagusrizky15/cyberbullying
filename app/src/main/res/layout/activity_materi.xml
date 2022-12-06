@@ -34,14 +34,14 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:src="@drawable/btn_definisi"
-        android:layout_marginTop="-200dp"
+        android:layout_marginTop="-400dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <ImageButton
-        android:scaleType="centerCrop"
+        android:scaleType="fitCenter"
         android:id="@+id/btn_bentuk"
         android:backgroundTint="@color/white"
         android:layout_width="260dp"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <ImageButton
-        android:scaleType="centerCrop"
+        android:scaleType="fitCenter"
         android:id="@+id/btn_faktor"
         android:backgroundTint="@color/white"
         android:layout_width="260dp"
@@ -63,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <ImageButton
-        android:scaleType="centerCrop"
+        android:scaleType="fitCenter"
         android:id="@+id/btn_dampak"
         android:backgroundTint="@color/white"
         android:layout_width="260dp"
@@ -83,5 +83,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_dampak"
         app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_tips"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_materi"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
