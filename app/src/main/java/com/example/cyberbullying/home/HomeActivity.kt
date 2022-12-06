@@ -1,8 +1,9 @@
-package com.example.cyberbullying
+package com.example.cyberbullying.home
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.cyberbullying.materi.MateriActivity
 import com.example.cyberbullying.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {

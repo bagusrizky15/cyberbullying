@@ -1,4 +1,4 @@
-package com.example.cyberbullying
+package com.example.cyberbullying.splashscreen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.WindowManager
+import com.example.cyberbullying.home.MainActivity
+import com.example.cyberbullying.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

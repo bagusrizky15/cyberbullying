@@ -1,7 +1,8 @@
-package com.example.cyberbullying
+package com.example.cyberbullying.materi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.cyberbullying.R
 
 class MateriActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
