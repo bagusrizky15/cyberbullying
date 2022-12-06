@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.cyberbullying.materi.MateriActivity
 import com.example.cyberbullying.databinding.ActivityHomeBinding
+import com.example.cyberbullying.materi.VideoActivity
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
@@ -16,6 +17,11 @@ class HomeActivity : AppCompatActivity() {
 
         binding.btnMateri.setOnClickListener{
             val i = Intent(this, MateriActivity::class.java)
+            startActivity(i)
+        }
+
+        binding.btnVideo.setOnClickListener{
+            val i = Intent(this, VideoActivity::class.java)
             startActivity(i)
         }
 

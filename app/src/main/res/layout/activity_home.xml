@@ -28,6 +28,7 @@
         android:src="@drawable/icon_exit"/>
 
     <ImageButton
+        android:layout_marginTop="-100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:scaleType="centerCrop"
@@ -41,11 +42,23 @@
 
     <ImageButton
         android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/btn_video"
+        android:layout_width="214dp"
+        android:layout_height="60dp"
+        android:src="@drawable/btn_video"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_materi"/>
+
+    <ImageButton
+        android:layout_marginTop="10dp"
         android:id="@+id/btn_quiz"
         android:layout_width="214dp"
         android:layout_height="60dp"
         android:src="@drawable/btn_quiz"
-        app:layout_constraintTop_toBottomOf="@id/btn_materi"
+        app:layout_constraintTop_toBottomOf="@id/btn_video"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:scaleType="centerCrop"

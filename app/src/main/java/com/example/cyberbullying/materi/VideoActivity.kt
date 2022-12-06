@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.cyberbullying.R
 
-class FaktorActivity : AppCompatActivity() {
+class VideoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_faktor)
+        setContentView(R.layout.activity_video)
     }
 }

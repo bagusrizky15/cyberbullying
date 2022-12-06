@@ -16,6 +16,13 @@
         android:theme="@style/Theme.Cyberbullying"
         tools:targetApi="31">
         <activity
+            android:name=".VideoActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".TipsActivity"
             android:exported="false">
             <meta-data

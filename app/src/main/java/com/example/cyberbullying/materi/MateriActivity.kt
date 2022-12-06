@@ -3,6 +3,7 @@ package com.example.cyberbullying.materi
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.example.cyberbullying.R
 import com.example.cyberbullying.databinding.ActivityMateriBinding
 
@@ -19,4 +20,5 @@ class MateriActivity : AppCompatActivity() {
             startActivity(i)
         }
     }
+
 }
