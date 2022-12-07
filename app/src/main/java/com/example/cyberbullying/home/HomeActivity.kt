@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.cyberbullying.materi.MateriActivity
 import com.example.cyberbullying.databinding.ActivityHomeBinding
+import com.example.cyberbullying.materi.QuizActivity
 import com.example.cyberbullying.materi.VideoActivity
 
 class HomeActivity : AppCompatActivity() {
@@ -23,6 +24,11 @@ class HomeActivity : AppCompatActivity() {
         binding.btnVideo.setOnClickListener{
             val j = Intent(this, VideoActivity::class.java)
             startActivity(j)
+        }
+
+        binding.btnQuiz.setOnClickListener{
+            val k = Intent(this, QuizActivity::class.java)
+            startActivity(k)
         }
 
     }
