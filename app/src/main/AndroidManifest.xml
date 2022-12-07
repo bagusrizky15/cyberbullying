@@ -16,35 +16,42 @@
         android:theme="@style/Theme.Cyberbullying"
         tools:targetApi="31">
         <activity
-            android:name=".VideoActivity"
+            android:name=".PopUpActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".TipsActivity"
+            android:name=".materi.VideoActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".DampakActivity"
+            android:name=".materi.TipsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FaktorActivity"
+            android:name=".materi.DampakActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".BentukActivity"
+            android:name=".materi.FaktorActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".materi.BentukActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
