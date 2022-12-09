@@ -49,5 +49,5 @@ class QuizActivity : AppCompatActivity() {
         option4.text=questionModel.option4
     }
 
-    
+
 }
